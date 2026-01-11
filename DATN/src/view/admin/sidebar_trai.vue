@@ -64,7 +64,7 @@
 
 
 <script setup>
-import logo from '@/images/Logo_New.png'
+import logo from '@/images/Logo_Only.png'
 </script>
 
 <style scoped>
