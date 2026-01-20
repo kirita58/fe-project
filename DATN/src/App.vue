@@ -1,10 +1,19 @@
 <script setup>
-import Sidebar_trai from './view/admin/sidebar_trai.vue';
+import Taikhoan_khachhang from './view/admin/taikhoan_khachhang.vue';
+
 
 </script>
 
 <template>
-  <Sidebar_trai />
+  <RouterView />
+   <!-- <Taikhoan_khachhang /> -->
 </template>
 
-<style scoped></style>
+<style>
+  body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+</style>
